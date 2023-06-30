@@ -50,4 +50,3 @@ export default class HolbertonCourse {
     return this._students;
   }
 }
-
