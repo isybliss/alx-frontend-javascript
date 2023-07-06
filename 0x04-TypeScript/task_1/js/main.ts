@@ -52,7 +52,7 @@ interface StudentClassInterface {
   displayName(): string;
 }
 
-class StudentClass implements StudentClassInterface {
+export class StudentClass implements StudentClassInterface {
   constructor(public firstName: string, public lastName: string) {}
 
   workOnHomework(): string {
